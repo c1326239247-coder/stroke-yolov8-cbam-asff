@@ -1,0 +1,10 @@
+# YOLO dataset description for the patient-level ISLES 2022 split.
+# Adjust `path` to the local location of your converted ISLES 2022 slices.
+path: ../data/isles2022_yolo
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: ischemic_lesion
+nc: 1

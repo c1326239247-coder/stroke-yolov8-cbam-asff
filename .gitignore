@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.onnx
+runs/
+wandb/
+datasets/
+data/isles2022_yolo/
+*.csv
+!data/patient_split_manifest.csv
+*.log
+.idea/
+.vscode/
+.DS_Store
+*.cache
