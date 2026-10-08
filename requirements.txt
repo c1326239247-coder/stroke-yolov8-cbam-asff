@@ -1,10 +1,20 @@
-torch>=2.1
-torchvision>=0.16
-numpy>=1.24
-opencv-python>=4.8
-pillow>=10.0
-pyyaml>=6.0
-scipy>=1.11
-tqdm>=4.66
-matplotlib>=3.8
+# Exact versions used to produce the results reported in the paper.
+# Python 3.11.9, Windows, CUDA 12.8 (NVIDIA RTX 5070 Ti).
+# The ultralytics package is the modified copy included in this repository
+# (ultralytics 8.2.0 with the CBAM and Detect_ASFF modules); install it with
+# `pip install -e .` from the repository root rather than from PyPI.
+
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.4.6
+opencv-python==5.0.0.93
+pillow==12.2.0
+PyYAML==6.0.3
+scipy==1.17.1
+tqdm==4.68.2
+matplotlib==3.10.9
 timm==0.6.13
+einops==0.8.2
+psutil==7.2.2
+py-cpuinfo==9.0.0
+pandas==3.0.3
